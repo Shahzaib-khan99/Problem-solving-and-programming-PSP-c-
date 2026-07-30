@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+
+struct student{
+	int age;
+	char name [20];
+	int rollno;
+	
+};
+int main()
+{
+student *arr = new student[20];
+
+
+for(int i =0; i<5; i++)
+{
+	cout<<"input the student record" << endl;
+	
+	cout<< "enter the name ="<<endl;
+	cin>> arr[i].name;
+	
+	cout<<"enter the age =" << endl;
+	cin>>arr[i].age;
+	
+	cout<< "enter the roll no =" << endl;
+	cin>>arr[i].rollno;
+	 arr[i].age = arr[i].age +10;
+	
+}
+
+cout<< "display the record of student" << endl;
+    for(int i =0; i<5; i++)
+    {
+    	cout<<arr[i].name <<endl ;
+    	cout<< arr[i].age <<endl;
+    	cout<< arr[i].rollno ;
+    	 
+	}
+}
