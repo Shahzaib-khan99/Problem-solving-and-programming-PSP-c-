@@ -30,7 +30,7 @@ int main()
     //cin >> p1.age;
     cout << "Enter salary: ";
     gets(sal);
-    p1.age=atof(sal);
+    p1.salary=atof(sal);
     //cin >> p1.salary;
     
 
