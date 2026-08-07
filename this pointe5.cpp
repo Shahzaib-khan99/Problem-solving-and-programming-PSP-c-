@@ -12,11 +12,11 @@ Test setX(int a) { x = a; return *this; }
 Test setY(int b) { y = b; return *this; }
 void print() { cout << "x = " << x << " y = " << y << endl; }
 };
-
+ 
 int main()
 {
 Test obj1(2,3);
-obj1.setX(10).setY(20);
+obj1.setX(10).setY(20).print();
 obj1.print();
 return 0;
 }
