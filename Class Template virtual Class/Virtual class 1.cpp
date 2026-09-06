@@ -8,7 +8,7 @@ public:
 		cout << "Hello form A \n";
 	}
 };
-
+ 
 class B : public A {
 };
 
