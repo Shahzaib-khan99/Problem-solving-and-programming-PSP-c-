@@ -2,7 +2,7 @@
 using namespace std; 
 
 class A {  
-public:  
+public:   
 	void show() 
 	{   
 		cout << "Hello form A \n";
