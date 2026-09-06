@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std; 
 
-class A {  
+class A {   
 public:    
 	void show() 
 	{    
