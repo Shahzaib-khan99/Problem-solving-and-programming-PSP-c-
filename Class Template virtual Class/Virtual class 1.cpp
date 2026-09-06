@@ -3,7 +3,7 @@ using namespace std;
 
 class A { 
 public: 
-	void show()
+	void show() 
 	{ 
 		cout << "Hello form A \n";
 	}
