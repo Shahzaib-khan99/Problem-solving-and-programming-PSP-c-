@@ -4,7 +4,7 @@ using namespace std;
 class A {  
 public:    
 	void show() 
-	{   
+	{    
 		cout << "Hello form A \n";
 	}
 };  
