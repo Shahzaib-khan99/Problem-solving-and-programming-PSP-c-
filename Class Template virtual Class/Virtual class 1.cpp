@@ -18,7 +18,7 @@ class C : public A {
 class D : public B, public C {
 };
 
-int main()
+int main() 
 {
 	D object;
 	object.show();
