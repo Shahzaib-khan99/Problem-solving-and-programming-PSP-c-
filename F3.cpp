@@ -10,7 +10,7 @@
 // parameter str means string object where the extracted line is stored. 
 
 using namespace std;
-
+ 
 int main()
 { 
     fstream st; 
