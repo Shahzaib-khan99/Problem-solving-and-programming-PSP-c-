@@ -9,7 +9,7 @@
 // parameter is means istream object from which characters are extracted. 
 // parameter str means string object where the extracted line is stored. 
 
-using namespace std;
+using namespace std; 
  
 int main()
 { 
