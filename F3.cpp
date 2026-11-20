@@ -12,7 +12,7 @@
 using namespace std;
 
 int main()
-{
+{ 
     fstream st; 
 			string line;				// step 1: Creating object of fstream class
     st.open("d:\\OOP1.TXT",ios::in);   	// Step 2: opens a file for Creating new file
