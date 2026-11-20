@@ -7,7 +7,7 @@
 //    Syntax of getline function 
 //istream& getline (istream& is, string& str);
 // parameter is means istream object from which characters are extracted. 
-// parameter str means string object where the extracted line is stored.
+// parameter str means string object where the extracted line is stored. 
 
 using namespace std;
 
