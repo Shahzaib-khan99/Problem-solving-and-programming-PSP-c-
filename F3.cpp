@@ -25,7 +25,7 @@ int main()
         
     
 	    while (!st.eof())				//read the contents of a file until eof (end of file reached)
-        {
+        { 
 		    							//st >>line;  // Step 4: Reading from file
 		    
 			getline(st, line);			//istream& getline (istream& is, string& str);
