@@ -4,7 +4,7 @@
 #include <fstream>
 // read data from the file and and display data on the monitor
 
-//    Syntax of getline function
+//    Syntax of getline function 
 //istream& getline (istream& is, string& str);
 // parameter is means istream object from which characters are extracted. 
 // parameter str means string object where the extracted line is stored.
