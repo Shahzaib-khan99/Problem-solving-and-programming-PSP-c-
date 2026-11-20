@@ -29,7 +29,7 @@ int main()
 		    							//st >>line;  // Step 4: Reading from file
 		    
 			getline(st, line);			//istream& getline (istream& is, string& str);
-			cout <<line;				// parameter is means istream object from which characters are extracted.
+			cout <<line;				// parameter is means istream object from which characters are extracted. 
 			cout<<endl;					// parameter str means string object where the extracted line is stored.
         }
         st.close(); // Step 5: Closing file
